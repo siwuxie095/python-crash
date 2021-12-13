@@ -97,9 +97,3 @@ print(mesage)
 一种好得多的定义是，变量是可以赋给值的标签，也可以说变量指向特定的值。
 
 """
-
-message = "Hello Python world!"
-print(message)
-
-message = "Hello Python Crash Course world!"
-print(message)
