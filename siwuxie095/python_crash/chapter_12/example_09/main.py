@@ -252,7 +252,6 @@ run_game() 中的 while 循环又变得简单了：
         while True:
             self._check_events()
             self.ship.update()
-            self.bullets.update()
             self._update_bullets()
             self._update_screen()
 
