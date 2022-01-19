@@ -154,6 +154,8 @@ Performing system checks...
 ❸ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 
+PS：实际只需要执行 python manage.py runserver
+
 Django 启动了一个名为 development server 的服务器，让你能够查看系统中的项目，了解其工作情况。如果你在浏览
 器中输入 URL 以请求页面，该 Django 服务器将进行响应：生成合适的页面，并将其发送给浏览器。
 
