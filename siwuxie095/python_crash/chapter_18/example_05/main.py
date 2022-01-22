@@ -241,7 +241,7 @@ c. 模板
 
 {% block content %}
 
-❶    <p>Topic: {{ topic }}}</p>
+❶    <p>Topic: {{ topic }}</p>
 
     <p>Entries:</p>
 
