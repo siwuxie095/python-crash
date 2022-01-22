@@ -186,7 +186,7 @@ class EntryForm(forms.ModelForm):
     class Meta:
         model = Entry
         fields = ['text']
-❶        labels = {'text': ' '}
+❶        labels = {'text': 'Entry:'}
 ❷        widgets = {'text': forms.Textarea(attrs={'cols': 80})}
 
 首先修改 import 语句，使其除导入 Topic 外，还导入 Entry。新类 EntryForm 继承了 forms.ModelForm，它包含
